@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+.container {
+  font-family: "Outfit", sans-serif;
+  margin-block: 60px;
+  margin-inline: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  padding-inline: 20px;
+  padding-block: 20px;
+  border-radius: 15px;
+}
+img {
+  border-radius: 15px;
+}
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+}
+h2 {
+  padding-bottom: 10px;
+  color: hsl(14, 45%, 36%);
+}
+.Preparation {
+  background-color: hsl(330, 100%, 98%);
+  padding-inline: 30px;
+  padding-block: 20px;
+  border-radius: 15px;
+}
+.Ingredients {
+  line-height: 25px;
+  padding-inline: 10px;
+  padding-block: 20px;
+  border-bottom: 1px solid gainsboro;
+}
+.instructions {
+  padding-inline: 10px;
+  padding-block: 15px;
+  border-bottom: 1px solid gainsboro;
+}
+.nutrition {
+  padding-inline: 10px;
+  padding-block: 15px;
+}
+p,
+li {
+  line-height: 25px;
+  font-size: 16px;
+}
+h3 {
+  padding-bottom: 10px;
+  color: hsl(332, 51%, 32%);
+}
+h1 {
+  padding-block: 10px;
+}
+#id1 {
+  padding-bottom: 16px;
+}
+.Preparation li::marker {
+  color: hsl(332, 51%, 32%);
+}
+.Ingredients li::marker,
+.instructions li::marker {
+  color: hsl(14, 45%, 36%);
+}
+table {
+  border-collapse: collapse;
+  height: 100px;
+  width: 400px;
+}
+td {
+  padding-left: 20px;
+  padding-block: 10px;
+  text-align: left;
+  vertical-align: middle;
+}
+tr {
+  border-bottom: 2px solid gainsboro;
+}
+.attribution {
+  color: darkmagenta;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: rgb(105, 30, 75);
+}
